@@ -38,7 +38,7 @@ INSERT INTO user (useranme, password, isadmin) VALUES (
 'Joel','12345678','0');
 ```
 
-username und das password werden über ein Eingabefeld eingegeben. isAdmin ist im Benutzerobjekt gespeichert und wird so abgerufen. Sobald dies er Angreifer weiss, kann er folgendes in die Felder eingeben um einen Adminaccount zu erstellen. 
+username und das password werden über ein Eingabefeld eingegeben. isAdmin ist im Benutzerobjekt gespeichert und wird so abgerufen. Sobald dies der Angreifer weiss, kann er folgendes in die Felder eingeben um einen Adminaccount zu erstellen. 
 
 ```
 username: "Hacklord7000"
