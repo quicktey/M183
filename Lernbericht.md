@@ -96,12 +96,12 @@ Anahnd der Beschreibung oben und der Beispiele kann man sehen, dass ich verstand
 ✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
 
 # Reflektion zum Arbeitsprozess
-Wie Interpreter Injections funktionieren habe ich schnell begriffen, auch die Theoretischen Aufgaben dazu konnte ich ohne schwierigkeiten lösen. Insbesondere liefen die Angriffsaufgaben gut. Problematischer wurde es als es darum ging die Injections zu verhindern. Für unser Lernatelier Projekt mussten wir ebenfalls Prepared Statements machen. Hier musste ich zuerst googeln wie man das macht. Ebenfalls musste ich es auch noch verstehen. Dies dauerte eine weile. Ebenfalls weis ich noch nicht wie man XML Files vor Injections schütz. 
+Wie Interpreter Injections funktionieren habe ich schnell begriffen, auch die Theoretischen Aufgaben dazu konnte ich ohne schwierigkeiten lösen. Insbesondere liefen die Angriffsaufgaben gut. Problematischer wurde es als es darum ging die Injections zu verhindern. Für unser Lernatelier Projekt mussten wir Prepared Statements machen um unsere Datenbank zu schützen. Da Springboot anderst funktioniert als JSF musste ich mich zuerst einlesen. Dies dauerte eine weile. Wie man sich vor XML Injections schützen kann habe ich noch nicht verstanden. 
 
 👍 Überlegen Sie sich jeweils etwas, was gut an Ihrer Arbeit lief; 
 
 👎 und etwas, was nicht gut lief.
 
-Um auch gegen XML Injections geschützt zu sein, werde ich mich darin einlesen, sobald ich es benötige. 
+Um meine Applikationen auch gegen XML Injections zu schützen, werde ich mich darin einlesen, sobald ich es benötige. 
 
 **VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
