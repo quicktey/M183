@@ -38,7 +38,7 @@ INSERT INTO user (useranme, password, isadmin) VALUES (
 'Joel','12345678','0');
 ```
 
-username und das password werden über ein Eingabefeld eingegeben. isAdmin ist im Benutzerobjekt gespeichert und wird so abgerufen. Sobald dies der Angreifer weiss, kann er folgendes in die Felder eingeben um einen Adminaccount zu erstellen. 
+username und das password werden über ein Eingabefeld eingegeben. isAdmin ist im Benutzerobjekt gespeichert und wird so abgerufen. Sobald dies der Angreifer weiss, kann er folgendes in die Eingabefelder eingeben um einen Adminaccount zu erstellen. 
 
 ```
 username: "Hacklord7000"
@@ -54,7 +54,7 @@ INSERT INTO user (useranme, password, isadmin) VALUES (
 
 Der Übrige SQL Code wird einfach asukommentiert. 
 
-Wenn der Angreifer weiss, das die Tabelle user heisst, kann er die ganze Tabelle Löschen indem er folgendes in die Eingebefeld eingibt. 
+Wenn der Angreifer weiss, das die Tabelle user heisst, kann er die ganze Tabelle Löschen indem er folgendes in die Eingebefelder eingibt. 
 
 ```
 Username: "Hacklord7000"
