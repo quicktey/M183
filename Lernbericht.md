@@ -16,10 +16,11 @@ Von dem neu gelernten hat mich das Thema Interpreter Injections, welche es einem
 ## Beschreibung
 Bei Interpreter Injections probiert der Angreifer die Strucktur der Datenbank / Speicherdatei  zu erraten. Wenn er die Strucktur herausgefunden hat, kann er die Benutzereingabe so gestalten, dass neue oder andere Datensätze eingetragen werden. Es können auch Daten entfernt werden. Je nachdem wie viel der Angreifer weis, kann er sogar die gesamte Datenbank zerstören. 
 Beispiel: Folgende Daten werden als Variabeln in das SQL Skript eingefügt.
-
+```Java
 username = Joel
 password = 12345678
 isAdmin = 0
+```
 
 So sieht es im java Code aus
 
@@ -36,9 +37,10 @@ INSERT INTO user (useranme, password, isadmin) VALUES (
 
 username und das password werden über ein Eingabefeld eingegeben. isAdmin ist im Benutzerobjekt gespeichert und wird so abgerufen. Sobald dies er Angreifer weiss, kann er folgendes in die Felder eingeben um einen Adminaccount zu erstellen. 
 
+```
 username: "Hacklord7000"
-
 password: "meinPassword','1'); --"
+```
 
 Dies würde von SQL so interpretiert werden. 
 
