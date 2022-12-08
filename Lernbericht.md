@@ -24,7 +24,7 @@ password = 12345678
 isAdmin = 0
 ```
 
-So sieht es im java Code aus
+So sieht es im Java Code aus
 
 ```Java
 INSERT INTO user (useranme, password, isadmin) VALUES (
