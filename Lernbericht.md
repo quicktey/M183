@@ -15,6 +15,7 @@ Von dem neu gelernten hat mich das Thema Interpreter Injections, welche es einem
 
 ## Beschreibung
 Bei Interpreter Injections probiert der Angreifer die Strucktur der Datenbank / Speicherdatei  zu erraten. Wenn er die Strucktur herausgefunden hat, kann er die Benutzereingabe so gestalten, dass neue oder andere Datensätze eingetragen werden. Es können auch Daten entfernt werden. Je nachdem wie viel der Angreifer weis, kann er sogar die gesamte Datenbank zerstören. 
+
 Beispiel: Folgende Daten werden als Variabeln in das SQL Skript eingefügt.
 
 ```
