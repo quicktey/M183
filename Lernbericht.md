@@ -36,8 +36,9 @@ INSERT INTO user (useranme, password, isadmin) VALUES (
 
 username und das password werden über ein Eingabefeld eingegeben. isAdmin ist im Benutzerobjekt gespeichert und wird so abgerufen. Sobald dies er Angreifer weiss, kann er folgendes in die Felder eingeben um einen Adminaccount zu erstellen. 
 
-Username: "Hacklord7000"
-Password: "meinPassword','1'); --"
+username: "Hacklord7000"
+
+password: "meinPassword','1'); --"
 
 Dies würde von SQL so interpretiert werden. 
 
