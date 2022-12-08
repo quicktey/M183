@@ -24,14 +24,14 @@ password = 12345678
 isAdmin = 0
 ```
 
-So sieht es im Java Code aus
+So sieht es im Java Code aus:
 
 ```Java
 INSERT INTO user (useranme, password, isadmin) VALUES (
 \"" + username + "\", \"" + password + "\" ,\"" + isAdmin + "\");
 ```
 
-So wird es von SQL interpretiert
+So wird es von SQL interpretiert:
 
 ```SQL
 INSERT INTO user (useranme, password, isadmin) VALUES (
@@ -45,7 +45,7 @@ username: "Hacklord7000"
 password: "meinPassword','1'); --"
 ```
 
-Dies würde von SQL so interpretiert werden. 
+Dies würde von SQL so interpretiert werden:
 
 ```SQL
 INSERT INTO user (useranme, password, isadmin) VALUES (
@@ -61,7 +61,7 @@ Username: "Hacklord7000"
 Password: "meinPassword','1'); DROP TABLE user;--"
 ```
 
-Dies würde von SQL so interpretiert werden. 
+Dies würde von SQL so interpretiert werden:
 
 ```SQL
 INSERT INTO user (useranme, password, isadmin) VALUES (
@@ -73,7 +73,7 @@ Wieder wird der restliche SQL Code einfach auskommentiert.
 
 Um dem entgegenzuwirken gibt es Prepared statements. Diese sorgen dafür das SQL weiss, was anweisungen und was Daten sind. Die Variabeln werden durch Fragezeichen ersetzt, um danach später mit einer Prepared Statement Klasse befüllt zu werden. 
 
-Das SQL Skript würde etwa so aussehen:
+Das SQL Skript würde so aussehen:
 
 ```SQL
 INSERT INTO user (useranme, password, isadmin) VALUES (
@@ -91,13 +91,17 @@ Ein Beispiel aus einem Lernatelier Projekt, wo wir (Delia, Melanie und ich) mit 
 * Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
 
 ## Verifikation
+Anahnd der Beschreibung oben und der Beispiele kann man sehen, dass ich verstanden habe wie Interpreter Injections funktionieren. Insbesondere SQL Injections. 
 
 ✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
 
 # Reflektion zum Arbeitsprozess
+Wie Interpreter Injections funktionieren habe ich schnell begriffen, auch die Theoretischen Aufgaben dazu konnte ich ohne schwierigkeiten lösen. Insbesondere liefen die Angriffsaufgaben gut. Problematischer wurde es als es darum ging die Injections zu verhindern. Für unser Lernatelier Projekt mussten wir ebenfalls Prepared Statements machen. Hier musste ich zuerst googeln wie man das macht. Ebenfalls musste ich es auch noch verstehen. Dies dauerte eine weile. Ebenfalls weis ich noch nicht wie man XML Files vor Injections schütz. 
 
 👍 Überlegen Sie sich jeweils etwas, was gut an Ihrer Arbeit lief; 
 
 👎 und etwas, was nicht gut lief.
+
+Um auch gegen XML Injections geschützt zu sein, werde ich mich darin einlesen, sobald ich es benötige. 
 
 **VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
