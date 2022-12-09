@@ -9,12 +9,12 @@ Im Modul 183 geht es um Applikationssicherheit.
 ✍️ Ein Satz, worum es in dem Projekt ging. Muss für einen externen Leser einfach zu verstehen sein.
 
 ## Was habe ich gelernt?
-Von dem neu gelernten hat mich das Thema Interpreter Injections, welche es einem Angreifer ermöglichen Datenbanken oder andere Speicherdateien zu manipulieren, am meisten interessiert. 
+Von dem neu Gelernten hat mich das Thema "Interpreter Injections", welche es einem Angreifer ermöglichen, Datenbanken oder andere Speicherdateien zu manipulieren, am meisten interessiert. 
 
 ✍️ Beschreiben Sie in einem Satz **eine** Sache, die Sie bei diesem Projekt gelernt haben und die Sie in diesem Lern-Bericht dokumentieren.
 
 ## Beschreibung
-Bei Interpreter Injections probiert der Angreifer die Strucktur der Datenbank / Speicherdatei  zu erraten. Wenn er die Strucktur herausgefunden hat, kann er die Benutzereingabe so gestalten, dass neue oder andere Datensätze eingetragen werden. Es können auch Daten entfernt werden. Je nachdem wie viel der Angreifer weis, kann er sogar die gesamte Datenbank zerstören. 
+Bei "Interpreter Injections" probiert der Angreifer die Strucktur der Datenbank / Speicherdatei zu erraten. Wenn er die Strucktur herausgefunden hat, kann er die Benutzereingabe so gestalten, dass neue oder andere Datensätze eingetragen werden. Es können auch Daten entfernt werden. Je nachdem wie viel der Angreifer weiss, kann er sogar die gesamte Datenbank zerstören. 
 
 Beispiel: Folgende Daten werden als Variabeln in das SQL Skript eingefügt.
 
