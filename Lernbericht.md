@@ -36,30 +36,30 @@ username und password werden über ein Eingabefeld eingegeben. isAdmin ist im Be
 
 ```
 username: "Hacklord7000"
-password: "meinPassword','1'); --"
+password: "meinPassword', 1); --"
 ```
 
 Dies würde von SQL so interpretiert werden:
 
 ```SQL
 INSERT INTO user (useranme, password, isadmin) VALUES (
-'Hacklord7000','meinPassword','1'); --, 0);
+'Hacklord7000','meinPassword', 1); --, 0);
 ```
 
 Der übrige SQL Code wird einfach asukommentiert. 
 
-Wenn der Angreifer weiss, das die Tabelle user heisst, kann er die ganze Tabelle löschen, indem er folgendes in die Eingebefelder eingibt: 
+Wenn der Angreifer weiss, dass die Tabelle user heisst, kann er die ganze Tabelle löschen, indem er folgendes in die Eingebefelder eingibt: 
 
 ```
 Username: "Hacklord7000"
-Password: "meinPassword','1'); DROP TABLE user;--"
+Password: "meinPassword', 1); DROP TABLE user;--"
 ```
 
 Dies würde von SQL so interpretiert werden:
 
 ```SQL
 INSERT INTO user (useranme, password, isadmin) VALUES (
-'Hacklord7000','meinPassword','1');
+'Hacklord7000','meinPassword', 1);
 DROP TABLE user; --, 0);
 ```
 
