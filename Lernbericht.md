@@ -46,7 +46,7 @@ INSERT INTO user (useranme, password, isadmin) VALUES (
 'Hacklord7000','meinPassword','1'); --, 0);
 ```
 
-Der Übrige SQL Code wird einfach asukommentiert. 
+Der übrige SQL Code wird einfach asukommentiert. 
 
 Wenn der Angreifer weiss, das die Tabelle user heisst, kann er die ganze Tabelle löschen, indem er folgendes in die Eingebefelder eingibt: 
 
