@@ -75,7 +75,7 @@ INSERT INTO user (useranme, password, isadmin) VALUES (
 ```
 
 Ein Beispiel aus einem Lernatelier Projekt, wo wir (Delia, Melanie und ich) mit Springboot die "Prepared Statements" verwendet haben. 
-//Bild einfügen 
+![CodeSnippet](https://user-images.githubusercontent.com/69578012/207329824-1b1b535a-6257-4ccd-90de-b6630fd01676.png)
 
 ## Verifikation
 Anhand der Beschreibung oben und der Beispiele kann man sehen, dass ich verstanden habe wie "Interpreter Injections" funktionieren. Insbesondere "SQL Injections". 
